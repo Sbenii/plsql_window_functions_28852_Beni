@@ -138,7 +138,7 @@ FULL OUTER JOIN TRANSACTIONS t
     ON a.account_id = t.account_id
 ORDER BY c.full_name;
 ```
-![FULL INNER JOIN](Screenshots/SQL_Joins/4.FULL%20INNER%20JOIN.png)
+![FULL OUTER JOIN](Screenshots/SQL_Joins/4.FULL%20OUTER%20JOIN.png)
 
 This rovides a full overview of all customers, including those with and without transactions. This helps the bank reconcile accounts and understand overall customer activity.
 
@@ -206,7 +206,7 @@ JOIN BRANCHES b ON c.branch_id = b.branch_id
 GROUP BY b.branch_name, TRUNC(t.transaction_date,'MM')
 ORDER BY b.branch_name, month;
 ```
-![Aggregate window function](Screenshots/SQL_Window_functions/2.Aggregare%20window%20function.png)
+![Aggregate window function](Screenshots/SQL_Window_functions/2.Aggregate%20window%20function.png)
 
 
 This query calculates transaction totals in different months for each branch. It allows management to monitor financial growth trends continuously. This helps in forecasting revenue performance.
