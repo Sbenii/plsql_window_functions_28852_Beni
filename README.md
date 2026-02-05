@@ -101,7 +101,7 @@ LEFT JOIN BRANCHES b
 WHERE t.transaction_id IS NULL;           -- filter customers with no transactions
 
 ```
-![LEFT INNER JOIN](Screenshots/SQL_Joins/2.LEFT%20INNER%20JOIN.png)
+![LEFT INNER JOIN](Screenshots/SQL_Joins/2.LEFT%20INNER%20JOIN .png)
 
 This identifies inactive customers who have not yet performed any transactions. The bank can target these customers with promotions or engagement campaigns.
 
