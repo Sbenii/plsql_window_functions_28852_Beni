@@ -1,0 +1,6 @@
+CREATE TABLE BRANCHES (
+    branch_id NUMBER PRIMARY KEY,
+    branch_name VARCHAR2(100) NOT NULL,
+    region VARCHAR2(50) NOT NULL
+);
+
